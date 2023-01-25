@@ -9,6 +9,7 @@ var argv = minimist(process.argv.slice(2));
     //console.log(argv);
 // Define a const `port` using the argument from the command line. 
 // Make this const default to port 3000 if there is no argument given for `--port`.
+const hostname = '127.0.0.1';
 const port = argv.port || 3000;
 // Use the fs module to create an arrow function using `fs.readFile`.
 // Use the documentation for the Node.js `fs` module. 
